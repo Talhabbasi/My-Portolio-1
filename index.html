@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main-container">
+        <div class="image-portion">
+            <div class="fixed-img">
+<img src="./profile_girl.jpg" alt="" srcset="">
+        </div>
+    </div>
+        <div class="portfolio-work">
+            <nav class="menu-header">
+                <ul class="inline-block" id="inline-block">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">portfolio</a></li>
+                    <li><a href="#">about</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <i class="uil uil-times nav__close" id="nav__close" onclick="nav__close()"></i>
+                <div class="show-menu">
+                    <i class="uil uil-apps nav__menu" id="nav__menu" onclick="nav_menu()"></i>
+
+                </div>
+            </nav>
+            <div class="first-page container">
+                <h1>
+                    Jane Doe
+                </h1>
+                <p>
+                    Web Designer
+                </p>
+                <input type="button" value="Download Resume" class="btn-download">
+            </div>
+            <h1 style="margin-bottom:8px;"> My portfolio</h1>
+            <div class="myportfolio-pics container">
+                
+                <div class="firstsection">
+                    <div>
+<img src="./wedding (1).jpg" alt="" srcset="">
+                    </div>
+                    <div>
+                    <img src="./rocks.jpg" alt="" srcset="">
+                    </div>
+                    <div>
+                        <img src="./sailboat.jpg" alt="" srcset="">
+                    </div>
+                </div>
+                <div class="secondsection">
+                    <div>
+<img src="./underwater.jpg" alt="" srcset="">
+                    </div>
+                    <div>
+                    <img src="./chef.jpg" alt="" srcset="">
+                    </div>
+                    <div>
+                        <img src="./wedding (1).jpg" alt="" srcset="">
+                                            </div>
+                    <div>
+                        <img src="./p6.jpg" alt="" srcset="">
+                    </div>
+                </div>
+              
+                
+    </div>
+            <div class="about container">
+                <h1 class="header-about">About</h1>
+                <p class="para-about">
+                    Some text about me. Some text about me. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    
+                </p>
+
+            </div>
+            <div class="skills container">
+                <h1 class="header-skills">
+                    My Skills
+                </h1>
+                <div class="data-skills">
+                    <div class="dataname"> PhotoGraphy</div>
+                    <div class="data-container">
+                    <div class="data-bar photogrphy">
+                        80%
+                    </div>
+                </div>
+                    <div class="dataname"> Web-design</div>
+                    <div class="data-container">
+                    <div class="data-bar web">
+                        50%
+                    </div>
+                </div>
+                    <div class="dataname"> photoshop</div>
+                    <div class="data-container">
+                    <div class="data-bar photshop">
+                        70%
+                    </div>
+                </div>
+                </div>
+            </div>
+   
+        </div>
+    </div>
+    <script>
+        function nav_menu(){
+              document.getElementById('nav__menu').style.display="none"
+          
+            document.getElementById('inline-block').style.display="block"
+            document.getElementById('nav__close').style.display="block"
+        }
+        function nav__close(){
+            document.getElementById('nav__menu').style.display="block"
+            document.getElementById('inline-block').style.display="none"
+            document.getElementById('nav__close').style.display="none"
+        
+        }
+    </script>
+</body>
+</html>
